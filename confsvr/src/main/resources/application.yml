@@ -8,6 +8,8 @@ spring:
     active: native
   cloud:
     config:
+      discovery:
+        enabled: true
       server:
         native:
           #search-locations: file://<chapter 3>/confsvr/src/main/resources/config/licensingservice
