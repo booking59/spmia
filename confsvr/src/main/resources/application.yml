@@ -13,4 +13,4 @@ spring:
       server:
         native:
           #search-locations: file://<chapter 3>/confsvr/src/main/resources/config/licensingservice
-          search-locations: classpath:config/,classpath:config/licensingservice
+          search-locations: classpath:config/,classpath:config/licensingservice, classpath:config/organizationservice
